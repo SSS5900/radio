@@ -1,8 +1,8 @@
 package ru.netology.projecting;
 
 public class Radio {
-    public int currentRadioStationNumber;
-    public int currentVolume;
+    private int currentRadioStationNumber;
+    private int currentVolume;
 
     public void setCurrentRadioStationNumber(int newCurrentRadioStationNumber) {
         if (newCurrentRadioStationNumber > 9) {
